@@ -4,7 +4,7 @@
   <name>robot_control_pkg</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="kazim@todo.todo">kazim</maintainer>
+  <maintainer email="noshluk2@gmail.com">luqman</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
@@ -12,7 +12,10 @@
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
+  <depend>nav2_bringup</depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>
 </package>
+
