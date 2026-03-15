@@ -20,9 +20,6 @@ find_package(tf2_ros REQUIRED)
 find_package(nav2_bringup REQUIRED)
 
 
-
-
-
 add_executable(drive_node src/drive_node.cpp)
 ament_target_dependencies(drive_node rclcpp std_msgs geometry_msgs)
 
@@ -36,7 +33,7 @@ ament_target_dependencies(multi_tbsim_drive rclcpp std_msgs geometry_msgs)
 
 
 install(TARGETS
-spiral_motion
+  spiral_motion
   drive_node
   multi_tbsim_drive
   DESTINATION lib/${PROJECT_NAME})
